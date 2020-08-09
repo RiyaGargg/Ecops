@@ -1,0 +1,90 @@
+<html>
+<head>
+<style type="text/css">
+body{
+background-size:cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: gray;
+  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.active{
+background-color:limegreen;
+}
+</style>
+<title>homepage</title>
+
+<body background="background\c1.jpg">
+
+<p style="background-color:red;">
+<img src="images\e18.png" width="100"> 
+<span style="position:relative;top:0px;left:250px;font-size:30px;">UTTAR PRADESH ONLINE COMPLAINT REGISTERING SYSTEM </span></p>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">LogIn</a>
+    <div class="dropdown-content">
+      <a href="peoplelogin.html">People</a>
+      <a href="pologin.html">Police</a>
+      <a href="adminlogin.html">Administrator</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="contact.html">Contact</a></li>
+</ul>
+
+<marquee style="background-color:blue;position:relative;top:550;padding:2px;color:white;font-size:20px;width:100%;">Satyamev Jayate</marquee>
+
+<footer style="position:relative;top:560;background-color:black;color:white;text-align:center;padding:3px;margin-bottom:0px;">All rights reserved</footer>
+   
+</body>
+</html>
